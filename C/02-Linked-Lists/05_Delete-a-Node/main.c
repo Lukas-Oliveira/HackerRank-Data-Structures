@@ -29,7 +29,7 @@ struct SinglyLinkedList
   SinglyLinkedListNode* tail;
 };
 
-SinglyLinkedList* create_singly_linked_list_node(int node_data);
+SinglyLinkedListNode* create_singly_linked_list_node(int node_data);
 void insert_node_into_singly_linked_list(SinglyLinkedList** singly_linked_list, int node_data);
 void print_singly_linked_list(SinglyLinkedListNode* node, char* sep, FILE* fptr);
 void free_singly_linked_list(SinglyLinkedListNode* node);
@@ -117,7 +117,7 @@ int main()
   return EXIT_SUCCESS;
 }
 
-SinglyLinkedList* create_singly_linked_list_node(int node_data)
+SinglyLinkedListNode* create_singly_linked_list_node(int node_data)
 {
   SinglyLinkedListNode* node = malloc(sizeof(SinglyLinkedListNode));
 
