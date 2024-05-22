@@ -1,3 +1,7 @@
+/**
+ * Link: https://www.hackerrank.com/challenges/compare-two-linked-lists/problem
+*/
+
 #include <assert.h>
 #include <limits.h>
 #include <math.h>
